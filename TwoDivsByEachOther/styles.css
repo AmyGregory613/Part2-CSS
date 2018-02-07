@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+}
+#container {
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	background-color: red;
+	width:100vw;
+	height: 100vh;
+}
+
+.right-panel {
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: white;
+	width: 800px;
+	height: 500px;
+	margin: 40px;
+	
+}
+.left-panel {
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: white;
+	width: 200px;
+	height: 500px;
+	margin: 40px;
+}
